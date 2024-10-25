@@ -19,9 +19,9 @@ const Contact = () => {
                 <a href="https://www.instagram.com/nazamm._____?igsh=OG5kazExMDZuNTE0" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faInstagram} size="2x" className="instagram-icon" />
                 </a>
-                <a href="https://t.me/dummylink" target="_blank" rel="noopener noreferrer">
+                {/*<a href="https://t.me/dummylink" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTelegram} size="2x" className="telegram-icon" />
-                </a>
+                </a>*/}
             </div>
         </section>
     );
