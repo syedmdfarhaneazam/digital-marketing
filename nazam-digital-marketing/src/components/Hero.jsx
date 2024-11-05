@@ -4,7 +4,7 @@ import './Hero.css';  // Link to the CSS file
 const Hero = () => {
     return (
         <section className="hero">
-            <h1 className='title' >NAZAM DIGITAL MARKETING</h1>
+            <h1 className='title' >BOOST BUSINESS AND DIGITAL MARKETING</h1>
             <h1>Boost Your Business</h1>
             <p>Maximize your conversions with our cutting-edge strategies, driving leads like never before.</p>
             <p>For as low as <strong>$3,500</strong>, we can help you generate <strong>$50,000+</strong> in sales with our expert marketing team. From Facebook Ads, Instagram Ads, to lead generation and social media marketing, we’ve got you covered!</p>
