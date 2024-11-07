@@ -1,9 +1,6 @@
 # 🚀 Digital Marketing Landing Page Template 🌐
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/user-attachments/assets/62cbbb5e-9656-4179-ae3c-90b5daa3b086" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video src="https://github.com/user-attachments/assets/62cbbb5e-9656-4179-ae3c-90b5daa3b086" width="320" height="240" controls></video>
 
 Welcome to the **Digital Marketing Landing Page Template** – a visually captivating, dynamic landing page designed to make your brand stand out. Whether you’re setting up a marketing agency website, showcasing services, or crafting an online presence that captivates, this template has everything you need! Designed with sleek animations, modern aesthetics, and optimized for user engagement, it's a perfect foundation for any marketing project.
 
