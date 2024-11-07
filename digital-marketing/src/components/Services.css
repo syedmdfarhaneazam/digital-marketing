@@ -1,0 +1,65 @@
+.services {
+    background-color: #f7fafc;
+    padding: 60px 20px;
+    text-align: center;
+    color: #1e3a8a; /* Dark blue */
+    border-radius: 20px;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .services p {
+    font-size: 1.125rem;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #1e3a8a;
+  }
+  
+  .service-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .service-icon {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+  }
+  
+  .service-card:hover .service-icon {
+    color: #2563eb;
+  }
+ .service-icon:hover{
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+ }  
+ @keyframes spin{
+  from{transform: rotateX(0deg);}
+  to{transform: rotateX(360deg);}
+ }

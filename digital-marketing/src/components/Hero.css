@@ -1,0 +1,113 @@
+.hero {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Gradient from dark blue to light blue */
+    color: white;
+    padding: 120px 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the section */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Larger and responsive font */
+    font-weight: bold;
+    text-transform: uppercase; /* Make the heading more impactful */
+    letter-spacing: 2px; /* Add spacing for elegance */
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out; /* Add a fade-in animation */
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.5rem; /* Larger font for better readability */
+    font-weight: 300;
+    max-width: 900px;
+    margin: 20px auto; /* Center text and control width */
+    line-height: 1.6;
+    animation: fadeIn 3s ease-in-out; /* Delayed fade-in animation */
+}
+
+/* Add some stylish transitions and hover effects for buttons (if needed) */
+.hero-details {
+    margin-top: 40px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.hero-details ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-details li {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1); /* Add translucent background */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow on each item */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.boxes{
+    animation : scroll  linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+
+.hero-details li:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scroll{
+    from{
+        opacity :0 ;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero-details h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-details li {
+        font-size: 1.1rem;
+    }
+}
